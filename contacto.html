@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>IdeaDigital</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/estilos.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+<link rel="icon" type="image/png" sizes="32x32" href="img-ideaDigital/idea digital favicon.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+<header>
+  <div id="logo-nav">
+    <div class="logo"><img src="img-ideaDigital/idea digital.png" class="img-logo" alt="logo"></div>
+    <div id="item-menu"><i class="fas fa-bars"></i></div>
+    <nav id="navegador">
+      <ul class="ul-nav">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="estrategia.html">Estrategia</a></li>
+        <li><a href="equipo.html">Equipo</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="espacio"></div>
+</header>
+
+<form id="formulario" class="formulario-contacto" action="form.php" method="POST">
+  <div class="unete">
+    <p>Unete al equipo.</p>
+  </div>
+  <input type="text" class="input" name="nombre" placeholder="Nombre" id="nombre" autocomplete="off" title="Escribe tu nombre" required>
+  <input type="email" class="input" name="email" placeholder="Email" id="email" autocomplete="off" title="Escribe tu email" required>
+  <input type="text" class="input" name="empresa" placeholder="Empresa" id="empresa" autocomplete="off"  title="Escribe tu empresa " required>
+  <input type="tel" class="input" name="telefono" placeholder="Telefono" id="telefono" autocomplete="off"  title="Escribe tu telefono" required>
+  <textarea class="input" name="mensaje" placeholder="Mensaje" id="mensaje" title="Escribe aqui" required></textarea>
+  <label>
+    <input type="checkbox" class="input-checkbox">
+    Consiento el uso de mis datos para los fines indicados en "Política de privacidad".</label>
+  <br>
+  <label>
+    <input type="checkbox" class="input-checkbox">
+    Consiento el uso de mis datos personales para recibir publicidad de su entidad.</label>
+  <br>
+  <div class="caja-boton">
+    <button type="submit" name="submit" class="boton-submit">Enviar</button>
+  </div>
+  <div class="resultado"></div>
+</form>
+<footer class="contenedor-footer">
+  <div class="datos-footer">
+    <p>Calle alcolea 7, Madrid</p>
+    <p>Telefono: 610743502</p>
+    <p>Ideadigital@hotmail.com</p>
+  </div>
+  <div class="redes-sociales"> <a href="https://twitter.com/EduardoRomon" target="_blank"><i class="fab fa-twitter"></i></a> <a href="https://www.facebook.com/eduardoromongarcia/" target="_blank"><i class="fab fa-facebook-f"></i></a> <a href="https://www.instagram.com/?hl=es" target="_blank"><i class="fab fa-instagram"></i></a> </div>
+</footer>
+
+<script src="archivo.js"></script>
+
+<script src="formulario.js"></script>
+
+</body>
+</html>
